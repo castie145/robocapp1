@@ -8,19 +8,18 @@
 
     tools:context=".MainActivity">
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/signup"
-        android:text="Sign up"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/signup"
+    android:text="Sign up"
 
-        android:textColor="@color/g"
-        android:textSize="35dp"
-        android:textStyle="bold"
-        android:layout_margin="140dp"
-        android:gravity="center"
-        />
+    android:textColor="@color/g"
+    android:textSize="35dp"
+    android:textStyle="bold"
+    android:layout_margin="140dp"
+    android:gravity="center" />
 
-    <EditText
+   <EditText
         android:id="@+id/a"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -37,7 +36,8 @@
         android:inputType="textWebEmailAddress"
         android:padding="10dp"
         android:textColor="@color/g"
-        android:textColorHint="@color/g" />
+        android:textColorHint="@color/g"
+       />
 
     <EditText
         android:id="@+id/b"
