@@ -9,7 +9,17 @@
     tools:context=".MainActivity">
 
 
+    <FrameLayout
+        android:id="@+id/body_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/navbar"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="19dp"
+        android:layout_marginBottom="1dp" />
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -20,10 +30,10 @@
         android:layout_marginBottom="20dp"
         android:background="@drawable/corner"
         app:itemIconSize="25dp"
-        app:itemIconTint="#701D1C18"
+        app:itemIconTint="#1D1C18"
 
         app:itemRippleColor="@android:color/transparent"
-        app:itemTextColor="#991d1c18"
+        app:itemTextColor="#1d1c18"
         app:labelVisibilityMode="labeled"
         app:menu="@menu/imenu" />
 
@@ -31,6 +41,7 @@
 
 
     <ImageView
+        android:id="@+id/logo"
         android:layout_width="200dp"
         android:layout_height="200dp"
 
