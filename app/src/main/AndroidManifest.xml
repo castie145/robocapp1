@@ -10,9 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Robocapp">
         <activity
-            android:name=".login"
-            android:exported="false" />
-        <activity
             android:name=".jury"
             android:exported="false" />
         <activity
